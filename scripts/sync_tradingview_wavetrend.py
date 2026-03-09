@@ -37,6 +37,7 @@ def load_env_local() -> None:
         key, value = line.split("=", 1)
         key = key.strip()
         value = value.strip().strip('"').strip("'")
+        value = value.replace("\\r\\n", "").replace("\\n", "").strip()
         if key and key not in os.environ:
             os.environ[key] = value
 

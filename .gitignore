@@ -5,3 +5,5 @@ tsconfig.tsbuildinfo
 
 .vercel
 .env*.local
+logs/
+data/sync_checkpoint.json
