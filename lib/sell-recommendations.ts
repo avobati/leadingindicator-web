@@ -66,6 +66,13 @@ function freshnessFactor(ts: string): number {
   return 0.3;
 }
 
+function isRecent(ts: string, maxAgeDays = 21): boolean {
+  const ms = Date.parse(ts);
+  if (!Number.isFinite(ms)) return false;
+  const ageDays = (Date.now() - ms) / 86400000;
+  return ageDays >= 0 && ageDays <= maxAgeDays;
+}
+
 function marketFactor(market: string): number {
   const m = String(market || "").trim().toUpperCase();
   if (m === "NASDAQ" || m === "NYSE") return 1;
@@ -110,6 +117,8 @@ export function buildSellRecommendations(signals: SignalInput[], topK = 100, min
   const out: SellRecommendation[] = [];
 
   for (const row of signals) {
+    if (!isRecent(row.ts)) continue;
+
     const signal = String(row.signal || "").trim().toUpperCase();
     if (signal !== "SELL") continue;
 

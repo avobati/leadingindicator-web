@@ -44,6 +44,21 @@ POST to `/api/signals/ingest` with JSON:
 }
 ```
 
+## Live TradingView WaveTrend Sync
+
+This sync computes signals from TradingView weekly candles using the crossover rule:
+
+- `BUY`: green line crosses above red line
+- `SELL`: green line crosses below red line
+
+Run:
+
+```bash
+python scripts/sync_tradingview_wavetrend.py --limit 300
+```
+
+You can increase `--limit` to process more symbols.
+
 ## Deploy on Vercel
 
 1. Import `C:\\Users\\avoba\\Leadingindicator\\web` as a Vercel project.
