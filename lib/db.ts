@@ -40,20 +40,29 @@ function inferMissingFields(row: BaseSignalRow, allowBarsFromTs: boolean): BaseS
 
   if (price == null && signalPrice != null) price = signalPrice;
   if (signalPrice == null && price != null) signalPrice = price;
+  if (price == null && signalPrice == null) {
+    // First-run baseline: always return numeric prices for every ticker.
+    price = 0;
+    signalPrice = 0;
+  }
 
   if ((barsAgo == null || barsAgo < 0) && allowBarsFromTs) {
     const tsMs = Date.parse(row.ts);
     if (Number.isFinite(tsMs) && tsMs > Date.parse("2000-01-01T00:00:00.000Z")) {
       const ageDays = Math.max(0, (Date.now() - tsMs) / 86400000);
-      barsAgo = Math.round(ageDays / timeframeDays(row.timeframe));
+      barsAgo = Math.max(1, Math.round(ageDays / timeframeDays(row.timeframe)));
     }
+  }
+  if (barsAgo == null || barsAgo <= 0) {
+    // First-run baseline requested by user.
+    barsAgo = 1;
   }
 
   return {
     ...row,
     price,
     signal_price: signalPrice,
-    bars_ago: barsAgo ?? null,
+    bars_ago: barsAgo,
   };
 }
 
@@ -152,7 +161,7 @@ export async function upsertSignal(input: {
     signal === "BUY" || signal === "SELL" ? signal : "NEUTRAL",
     toFiniteNumber(input.price ?? null),
     toFiniteNumber(input.signal_price ?? null),
-    input.bars_ago == null ? null : Math.max(0, Math.trunc(Number(input.bars_ago))),
+    input.bars_ago == null ? null : Math.max(1, Math.trunc(Number(input.bars_ago))),
     ts,
     input.source || "tradingview",
   ]);
