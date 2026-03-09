@@ -1,0 +1,4650 @@
+{
+    "AMEX:BCV$A":  {
+                       "bars_ago":  0,
+                       "price":  25.3,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  25.3,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:BESS.W":  {
+                        "bars_ago":  0,
+                        "price":  0.75,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  0.75,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:DC.W":  {
+                      "bars_ago":  0,
+                      "price":  4.05,
+                      "signal":  "NEUTRAL",
+                      "signal_price":  4.05,
+                      "timeframe":  "weekly"
+                  },
+    "AMEX:ECF$A":  {
+                       "bars_ago":  11,
+                       "price":  21.44,
+                       "signal":  "SELL",
+                       "signal_price":  21.49,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:EONR.W":  {
+                        "bars_ago":  0,
+                        "price":  0.1,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  0.1,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:FLYX.W":  {
+                        "bars_ago":  5,
+                        "price":  2.42,
+                        "signal":  "SELL",
+                        "signal_price":  2.96,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:GGN$B":  {
+                       "bars_ago":  26,
+                       "price":  20.78,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  21.1,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:GLU$A":  {
+                       "bars_ago":  0,
+                       "price":  50.6,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  50.6,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:GLU$B":  {
+                       "bars_ago":  2,
+                       "price":  50.68,
+                       "signal":  "BUY",
+                       "signal_price":  50.58,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:GPUS$D":  {
+                        "bars_ago":  13,
+                        "price":  22.48,
+                        "signal":  "SELL",
+                        "signal_price":  19.25,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:GRAF.U":  {
+                        "bars_ago":  0,
+                        "price":  10.74,
+                        "signal":  "SELL",
+                        "signal_price":  10.74,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:GRAF.W":  {
+                        "bars_ago":  0,
+                        "price":  0.25,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  0.25,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:GROY.W":  {
+                        "bars_ago":  0,
+                        "price":  2.2,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  2.2,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:IAUX.W":  {
+                        "bars_ago":  0,
+                        "price":  18.49,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  18.49,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:LEGO.U":  {
+                        "bars_ago":  0,
+                        "price":  9.99,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  9.99,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:LEGT.U":  {
+                        "bars_ago":  22,
+                        "price":  11.2,
+                        "signal":  "BUY",
+                        "signal_price":  11.91,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:LEGT.W":  {
+                        "bars_ago":  0,
+                        "price":  0.66,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  0.66,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:OPP$C":  {
+                       "bars_ago":  54,
+                       "price":  10.18,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  10.1,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$A":  {
+                       "bars_ago":  2,
+                       "price":  22.27,
+                       "signal":  "BUY",
+                       "signal_price":  22.71,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$B":  {
+                       "bars_ago":  19,
+                       "price":  20.28,
+                       "signal":  "BUY",
+                       "signal_price":  20.45,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$C":  {
+                       "bars_ago":  33,
+                       "price":  21.5,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  26.0,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$D":  {
+                       "bars_ago":  23,
+                       "price":  19.0,
+                       "signal":  "BUY",
+                       "signal_price":  18.28,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$E":  {
+                       "bars_ago":  16,
+                       "price":  19.34,
+                       "signal":  "SELL",
+                       "signal_price":  17.97,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$G":  {
+                       "bars_ago":  24,
+                       "price":  19.0,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  17.45,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$H":  {
+                       "bars_ago":  23,
+                       "price":  18.0,
+                       "signal":  "BUY",
+                       "signal_price":  16.5,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PCG$I":  {
+                       "bars_ago":  26,
+                       "price":  19.15,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  23.0,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PHXE$":  {
+                       "bars_ago":  4,
+                       "price":  25.2,
+                       "signal":  "BUY",
+                       "signal_price":  23.15,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:PW$A":  {
+                      "bars_ago":  4,
+                      "price":  26.4,
+                      "signal":  "BUY",
+                      "signal_price":  26.4,
+                      "timeframe":  "weekly"
+                  },
+    "AMEX:SACH$A":  {
+                        "bars_ago":  26,
+                        "price":  18.54,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  18.43,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:SLND.W":  {
+                        "bars_ago":  16,
+                        "price":  0.96,
+                        "signal":  "SELL",
+                        "signal_price":  3.34,
+                        "timeframe":  "weekly"
+                    },
+    "AMEX:TGE.W":  {
+                       "bars_ago":  0,
+                       "price":  0.22,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  0.22,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:UAC.U":  {
+                       "bars_ago":  0,
+                       "price":  9.97,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  9.97,
+                       "timeframe":  "weekly"
+                   },
+    "AMEX:UAC.W":  {
+                       "bars_ago":  0,
+                       "price":  0.5,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  0.5,
+                       "timeframe":  "weekly"
+                   },
+    "ASX:10X":  {
+                    "bars_ago":  36,
+                    "price":  20.81,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  11.73,
+                    "timeframe":  "weekly"
+                },
+    "ASX:14D":  {
+                    "bars_ago":  23,
+                    "price":  0.02,
+                    "signal":  "SELL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1AD":  {
+                    "bars_ago":  20,
+                    "price":  0.0,
+                    "signal":  "BUY",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1AE":  {
+                    "bars_ago":  11,
+                    "price":  620.0,
+                    "signal":  "SELL",
+                    "signal_price":  715.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1AI":  {
+                    "bars_ago":  0,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1CG":  {
+                    "bars_ago":  4,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1MC":  {
+                    "bars_ago":  1,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:1TT":  {
+                    "bars_ago":  47,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:29M":  {
+                    "bars_ago":  3,
+                    "price":  0.38,
+                    "signal":  "SELL",
+                    "signal_price":  0.41,
+                    "timeframe":  "weekly"
+                },
+    "ASX:360":  {
+                    "bars_ago":  20,
+                    "price":  21.87,
+                    "signal":  "SELL",
+                    "signal_price":  46.1,
+                    "timeframe":  "weekly"
+                },
+    "ASX:3DA":  {
+                    "bars_ago":  8,
+                    "price":  0.26,
+                    "signal":  "BUY",
+                    "signal_price":  0.32,
+                    "timeframe":  "weekly"
+                },
+    "ASX:3DP":  {
+                    "bars_ago":  2,
+                    "price":  0.04,
+                    "signal":  "SELL",
+                    "signal_price":  0.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:3PL":  {
+                    "bars_ago":  44,
+                    "price":  0.49,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.62,
+                    "timeframe":  "weekly"
+                },
+    "ASX:49M":  {
+                    "bars_ago":  36,
+                    "price":  77.54,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  66.41,
+                    "timeframe":  "weekly"
+                },
+    "ASX:4DS":  {
+                    "bars_ago":  2,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:4DX":  {
+                    "bars_ago":  30,
+                    "price":  4.33,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.43,
+                    "timeframe":  "weekly"
+                },
+    "ASX:5EA":  {
+                    "bars_ago":  14,
+                    "price":  0.29,
+                    "signal":  "SELL",
+                    "signal_price":  0.62,
+                    "timeframe":  "weekly"
+                },
+    "ASX:5GG":  {
+                    "bars_ago":  0,
+                    "price":  0.02,
+                    "signal":  "SELL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:5GN":  {
+                    "bars_ago":  12,
+                    "price":  0.07,
+                    "signal":  "SELL",
+                    "signal_price":  0.13,
+                    "timeframe":  "weekly"
+                },
+    "ASX:6KA":  {
+                    "bars_ago":  7,
+                    "price":  0.79,
+                    "signal":  "BUY",
+                    "signal_price":  0.8,
+                    "timeframe":  "weekly"
+                },
+    "ASX:88E":  {
+                    "bars_ago":  11,
+                    "price":  0.02,
+                    "signal":  "BUY",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:8CO":  {
+                    "bars_ago":  4,
+                    "price":  0.02,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:8IH":  {
+                    "bars_ago":  18,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A11":  {
+                    "bars_ago":  38,
+                    "price":  0.31,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.19,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A1G":  {
+                    "bars_ago":  58,
+                    "price":  0.94,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A1M":  {
+                    "bars_ago":  4,
+                    "price":  126.58,
+                    "signal":  "SELL",
+                    "signal_price":  134.98,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A1N":  {
+                    "bars_ago":  13,
+                    "price":  0.36,
+                    "signal":  "SELL",
+                    "signal_price":  0.45,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A2M":  {
+                    "bars_ago":  2,
+                    "price":  9.96,
+                    "signal":  "BUY",
+                    "signal_price":  9.44,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A3D":  {
+                    "bars_ago":  9,
+                    "price":  0.06,
+                    "signal":  "BUY",
+                    "signal_price":  0.06,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A4N":  {
+                    "bars_ago":  5,
+                    "price":  0.58,
+                    "signal":  "SELL",
+                    "signal_price":  0.77,
+                    "timeframe":  "weekly"
+                },
+    "ASX:A8G":  {
+                    "bars_ago":  17,
+                    "price":  0.08,
+                    "signal":  "SELL",
+                    "signal_price":  0.09,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AA2":  {
+                    "bars_ago":  4,
+                    "price":  0.35,
+                    "signal":  "BUY",
+                    "signal_price":  0.35,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AAC":  {
+                    "bars_ago":  6,
+                    "price":  1.33,
+                    "signal":  "SELL",
+                    "signal_price":  1.37,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AAI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AAU":  {
+                    "bars_ago":  14,
+                    "price":  31.37,
+                    "signal":  "BUY",
+                    "signal_price":  21.11,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ABB":  {
+                    "bars_ago":  29,
+                    "price":  230.11,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  206.69,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ABV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ABY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AC2":  {
+                    "bars_ago":  0,
+                    "price":  908.52,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  908.52,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AC3":  {
+                    "bars_ago":  3,
+                    "price":  6.6,
+                    "signal":  "SELL",
+                    "signal_price":  7.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ACE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ACQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ACS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ACW":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AD1":  {
+                    "bars_ago":  27,
+                    "price":  0.03,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AD8":  {
+                    "bars_ago":  18,
+                    "price":  2.85,
+                    "signal":  "SELL",
+                    "signal_price":  4.88,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADN":  {
+                    "bars_ago":  16,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADS":  {
+                    "bars_ago":  15,
+                    "price":  260.99,
+                    "signal":  "SELL",
+                    "signal_price":  290.8,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ADY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AEL":  {
+                    "bars_ago":  3,
+                    "price":  2.62,
+                    "signal":  "SELL",
+                    "signal_price":  2.3,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AEU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AEV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AF4":  {
+                    "bars_ago":  7,
+                    "price":  152.0,
+                    "signal":  "SELL",
+                    "signal_price":  145.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AF7":  {
+                    "bars_ago":  4,
+                    "price":  7.7,
+                    "signal":  "BUY",
+                    "signal_price":  7.55,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AFA":  {
+                    "bars_ago":  0,
+                    "price":  1.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AFI":  {
+                    "bars_ago":  15,
+                    "price":  6.89,
+                    "signal":  "SELL",
+                    "signal_price":  7.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AFP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AFT":  {
+                    "bars_ago":  23,
+                    "price":  3.1,
+                    "signal":  "BUY",
+                    "signal_price":  2.55,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AGC":  {
+                    "bars_ago":  43,
+                    "price":  123.88,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  99.34,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AGE":  {
+                    "bars_ago":  7,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AGN":  {
+                    "bars_ago":  0,
+                    "price":  10.64,
+                    "signal":  "SELL",
+                    "signal_price":  10.64,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AGR":  {
+                    "bars_ago":  6,
+                    "price":  1.33,
+                    "signal":  "SELL",
+                    "signal_price":  1.37,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AHC":  {
+                    "bars_ago":  6,
+                    "price":  0.34,
+                    "signal":  "SELL",
+                    "signal_price":  0.37,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AHK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AHN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AI1":  {
+                    "bars_ago":  5,
+                    "price":  0.05,
+                    "signal":  "SELL",
+                    "signal_price":  0.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AIH":  {
+                    "bars_ago":  12,
+                    "price":  0.9,
+                    "signal":  "SELL",
+                    "signal_price":  0.96,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AJL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AJX":  {
+                    "bars_ago":  4,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AKG":  {
+                    "bars_ago":  27,
+                    "price":  54.65,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  34.7,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AKM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AKO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AL3":  {
+                    "bars_ago":  26,
+                    "price":  0.16,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.23,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ALI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ALR":  {
+                    "bars_ago":  38,
+                    "price":  28.74,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  30.7,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ALY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AM5":  {
+                    "bars_ago":  6,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AM7":  {
+                    "bars_ago":  13,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AMI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AMO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AN1":  {
+                    "bars_ago":  17,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AN3":  {
+                    "bars_ago":  64,
+                    "price":  102.4,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  102.68,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANG":  {
+                    "bars_ago":  58,
+                    "price":  106.54,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  28.23,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ANZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AO2":  {
+                    "bars_ago":  19,
+                    "price":  22.65,
+                    "signal":  "BUY",
+                    "signal_price":  18.74,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AO3":  {
+                    "bars_ago":  44,
+                    "price":  4.03,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  13.13,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AOV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AP2":  {
+                    "bars_ago":  24,
+                    "price":  300.6,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  160.6,
+                    "timeframe":  "weekly"
+                },
+    "ASX:APE":  {
+                    "bars_ago":  7,
+                    "price":  20.07,
+                    "signal":  "SELL",
+                    "signal_price":  19.94,
+                    "timeframe":  "weekly"
+                },
+    "ASX:APL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:APW":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AQC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AQD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AQI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AQX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AQZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AR1":  {
+                    "bars_ago":  2,
+                    "price":  0.09,
+                    "signal":  "SELL",
+                    "signal_price":  0.09,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AR3":  {
+                    "bars_ago":  4,
+                    "price":  0.17,
+                    "signal":  "SELL",
+                    "signal_price":  0.15,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AR9":  {
+                    "bars_ago":  24,
+                    "price":  0.08,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.14,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARA":  {
+                    "bars_ago":  17,
+                    "price":  0.49,
+                    "signal":  "SELL",
+                    "signal_price":  1.17,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARC":  {
+                    "bars_ago":  17,
+                    "price":  6.26,
+                    "signal":  "SELL",
+                    "signal_price":  8.18,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARD":  {
+                    "bars_ago":  2,
+                    "price":  6.19,
+                    "signal":  "SELL",
+                    "signal_price":  5.73,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ART":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARU":  {
+                    "bars_ago":  23,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ARV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AS1":  {
+                    "bars_ago":  58,
+                    "price":  0.14,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AS2":  {
+                    "bars_ago":  34,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ASK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ASN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ASP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ASV":  {
+                    "bars_ago":  4,
+                    "price":  0.04,
+                    "signal":  "SELL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AT1":  {
+                    "bars_ago":  33,
+                    "price":  0.04,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AT4":  {
+                    "bars_ago":  7,
+                    "price":  0.16,
+                    "signal":  "BUY",
+                    "signal_price":  0.17,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATA":  {
+                    "bars_ago":  11,
+                    "price":  0.57,
+                    "signal":  "SELL",
+                    "signal_price":  0.65,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATC":  {
+                    "bars_ago":  21,
+                    "price":  66.5,
+                    "signal":  "BUY",
+                    "signal_price":  51.15,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATH":  {
+                    "bars_ago":  5,
+                    "price":  170.13,
+                    "signal":  "SELL",
+                    "signal_price":  174.5,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATM":  {
+                    "bars_ago":  3,
+                    "price":  185.04,
+                    "signal":  "BUY",
+                    "signal_price":  179.25,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATV":  {
+                    "bars_ago":  11,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ATX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AU1":  {
+                    "bars_ago":  7,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUG":  {
+                    "bars_ago":  6,
+                    "price":  0.2,
+                    "signal":  "SELL",
+                    "signal_price":  0.27,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AUQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AV1":  {
+                    "bars_ago":  17,
+                    "price":  0.09,
+                    "signal":  "SELL",
+                    "signal_price":  0.14,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AVG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AVH":  {
+                    "bars_ago":  6,
+                    "price":  1.37,
+                    "signal":  "BUY",
+                    "signal_price":  1.3,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AVM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AW1":  {
+                    "bars_ago":  0,
+                    "price":  17.16,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  17.16,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AX1":  {
+                    "bars_ago":  1,
+                    "price":  1.02,
+                    "signal":  "BUY",
+                    "signal_price":  1.11,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AX8":  {
+                    "bars_ago":  15,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AXE":  {
+                    "bars_ago":  6,
+                    "price":  668.0,
+                    "signal":  "BUY",
+                    "signal_price":  600.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AXN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AYA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AYU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:AZ9":  {
+                    "bars_ago":  16,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:B01":  {
+                    "bars_ago":  0,
+                    "price":  98.08,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  98.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:B4P":  {
+                    "bars_ago":  6,
+                    "price":  1.4,
+                    "signal":  "SELL",
+                    "signal_price":  2.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BA2":  {
+                    "bars_ago":  5,
+                    "price":  54.45,
+                    "signal":  "SELL",
+                    "signal_price":  47.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BAS":  {
+                    "bars_ago":  20,
+                    "price":  4.96,
+                    "signal":  "SELL",
+                    "signal_price":  5.46,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BB1":  {
+                    "bars_ago":  38,
+                    "price":  0.83,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.46,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BBL":  {
+                    "bars_ago":  35,
+                    "price":  1.28,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  3.49,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BC8":  {
+                    "bars_ago":  4,
+                    "price":  33.52,
+                    "signal":  "SELL",
+                    "signal_price":  38.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BCK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BCN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BEL":  {
+                    "bars_ago":  0,
+                    "price":  0.78,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.78,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BEO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BET":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BFL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BGP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BHD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BHL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BKB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BKI":  {
+                    "bars_ago":  17,
+                    "price":  1.74,
+                    "signal":  "SELL",
+                    "signal_price":  1.74,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BKY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BLG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BLU":  {
+                    "bars_ago":  54,
+                    "price":  9.89,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  22.13,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BLZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BM1":  {
+                    "bars_ago":  23,
+                    "price":  0.82,
+                    "signal":  "BUY",
+                    "signal_price":  0.56,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BM8":  {
+                    "bars_ago":  18,
+                    "price":  0.09,
+                    "signal":  "SELL",
+                    "signal_price":  0.16,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BMG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BMH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BML":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BMT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BNZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BOQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BOT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BP1":  {
+                    "bars_ago":  0,
+                    "price":  49.2,
+                    "signal":  "SELL",
+                    "signal_price":  49.2,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BP8":  {
+                    "bars_ago":  4,
+                    "price":  0.0,
+                    "signal":  "BUY",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BPM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BPP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BPT":  {
+                    "bars_ago":  7,
+                    "price":  1.15,
+                    "signal":  "SELL",
+                    "signal_price":  1.13,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BRE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BRG":  {
+                    "bars_ago":  19,
+                    "price":  97.17,
+                    "signal":  "SELL",
+                    "signal_price":  132.95,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BRK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BRL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BRY":  {
+                    "bars_ago":  4,
+                    "price":  424.95,
+                    "signal":  "BUY",
+                    "signal_price":  427.9,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BS1":  {
+                    "bars_ago":  44,
+                    "price":  13.53,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  12.71,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BSA":  {
+                    "bars_ago":  0,
+                    "price":  15.71,
+                    "signal":  "SELL",
+                    "signal_price":  15.71,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BSN":  {
+                    "bars_ago":  3,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BTN":  {
+                    "bars_ago":  12,
+                    "price":  0.04,
+                    "signal":  "SELL",
+                    "signal_price":  0.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BUB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BUX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BVR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BW6":  {
+                    "bars_ago":  21,
+                    "price":  1.53,
+                    "signal":  "BUY",
+                    "signal_price":  1.48,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BWF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BXB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:BXN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:C1X":  {
+                    "bars_ago":  2,
+                    "price":  0.28,
+                    "signal":  "BUY",
+                    "signal_price":  0.14,
+                    "timeframe":  "weekly"
+                },
+    "ASX:C29":  {
+                    "bars_ago":  24,
+                    "price":  0.04,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:C79":  {
+                    "bars_ago":  2,
+                    "price":  9.67,
+                    "signal":  "BUY",
+                    "signal_price":  8.85,
+                    "timeframe":  "weekly"
+                },
+    "ASX:C7A":  {
+                    "bars_ago":  19,
+                    "price":  0.0,
+                    "signal":  "SELL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CAQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CC5":  {
+                    "bars_ago":  19,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CC9":  {
+                    "bars_ago":  6,
+                    "price":  0.1,
+                    "signal":  "SELL",
+                    "signal_price":  0.14,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CCA":  {
+                    "bars_ago":  4,
+                    "price":  0.09,
+                    "signal":  "BUY",
+                    "signal_price":  0.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CCP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CCR":  {
+                    "bars_ago":  13,
+                    "price":  0.2,
+                    "signal":  "SELL",
+                    "signal_price":  0.23,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CCV":  {
+                    "bars_ago":  8,
+                    "price":  0.32,
+                    "signal":  "BUY",
+                    "signal_price":  0.34,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CCX":  {
+                    "bars_ago":  3,
+                    "price":  0.1,
+                    "signal":  "SELL",
+                    "signal_price":  0.1,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CD1":  {
+                    "bars_ago":  35,
+                    "price":  0.4,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.53,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CD2":  {
+                    "bars_ago":  5,
+                    "price":  0.45,
+                    "signal":  "SELL",
+                    "signal_price":  0.49,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CD3":  {
+                    "bars_ago":  57,
+                    "price":  0.95,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1.27,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CDR":  {
+                    "bars_ago":  23,
+                    "price":  43.51,
+                    "signal":  "BUY",
+                    "signal_price":  36.34,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CEH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CEL":  {
+                    "bars_ago":  11,
+                    "price":  3.94,
+                    "signal":  "SELL",
+                    "signal_price":  4.91,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CEN":  {
+                    "bars_ago":  10,
+                    "price":  1.81,
+                    "signal":  "SELL",
+                    "signal_price":  2.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CF1":  {
+                    "bars_ago":  2,
+                    "price":  0.02,
+                    "signal":  "SELL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CG1":  {
+                    "bars_ago":  0,
+                    "price":  0.08,
+                    "signal":  "SELL",
+                    "signal_price":  0.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CGF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CGS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CHC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CHL":  {
+                    "bars_ago":  3,
+                    "price":  0.3,
+                    "signal":  "SELL",
+                    "signal_price":  0.35,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CHN":  {
+                    "bars_ago":  0,
+                    "price":  1538.77,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1538.77,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CIP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CKA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CKF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CL8":  {
+                    "bars_ago":  80,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CLA":  {
+                    "bars_ago":  4,
+                    "price":  19.52,
+                    "signal":  "BUY",
+                    "signal_price":  15.85,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CLU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CLV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CLZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CMD":  {
+                    "bars_ago":  38,
+                    "price":  31.25,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  26.7,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CML":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CMM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CMO":  {
+                    "bars_ago":  0,
+                    "price":  28.52,
+                    "signal":  "SELL",
+                    "signal_price":  28.52,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CND":  {
+                    "bars_ago":  17,
+                    "price":  1.39,
+                    "signal":  "SELL",
+                    "signal_price":  1.78,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CNU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:COB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:COD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:COG":  {
+                    "bars_ago":  4,
+                    "price":  66.26,
+                    "signal":  "SELL",
+                    "signal_price":  77.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:COH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:COV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CP8":  {
+                    "bars_ago":  4,
+                    "price":  0.07,
+                    "signal":  "SELL",
+                    "signal_price":  0.07,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CPL":  {
+                    "bars_ago":  8,
+                    "price":  4.8,
+                    "signal":  "SELL",
+                    "signal_price":  6.85,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CPM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CPU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CQE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CR1":  {
+                    "bars_ago":  4,
+                    "price":  0.17,
+                    "signal":  "SELL",
+                    "signal_price":  0.15,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CR3":  {
+                    "bars_ago":  5,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CR9":  {
+                    "bars_ago":  11,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CRD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CRN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CRR":  {
+                    "bars_ago":  12,
+                    "price":  6.31,
+                    "signal":  "SELL",
+                    "signal_price":  7.11,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CSC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CST":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CT1":  {
+                    "bars_ago":  15,
+                    "price":  0.0,
+                    "signal":  "BUY",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CTE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CTT":  {
+                    "bars_ago":  22,
+                    "price":  0.08,
+                    "signal":  "BUY",
+                    "signal_price":  0.06,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CU6":  {
+                    "bars_ago":  15,
+                    "price":  3.58,
+                    "signal":  "SELL",
+                    "signal_price":  3.64,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CUF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CUL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CVB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CVC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CVN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CWY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CXO":  {
+                    "bars_ago":  4,
+                    "price":  0.25,
+                    "signal":  "SELL",
+                    "signal_price":  0.21,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CXU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CXZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CY5":  {
+                    "bars_ago":  39,
+                    "price":  0.18,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.11,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CYG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CYL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:CYM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:D10":  {
+                    "bars_ago":  18,
+                    "price":  6.62,
+                    "signal":  "BUY",
+                    "signal_price":  5.43,
+                    "timeframe":  "weekly"
+                },
+    "ASX:D3E":  {
+                    "bars_ago":  14,
+                    "price":  0.38,
+                    "signal":  "SELL",
+                    "signal_price":  0.32,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DA8":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DA9":  {
+                    "bars_ago":  17,
+                    "price":  6.1,
+                    "signal":  "SELL",
+                    "signal_price":  6.6,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DBF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DEV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DJW":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DKM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DM1":  {
+                    "bars_ago":  4,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DME":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DN1":  {
+                    "bars_ago":  23,
+                    "price":  98.8,
+                    "signal":  "SELL",
+                    "signal_price":  100.51,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DPM":  {
+                    "bars_ago":  14,
+                    "price":  56.16,
+                    "signal":  "BUY",
+                    "signal_price":  42.85,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DRE":  {
+                    "bars_ago":  8,
+                    "price":  1.73,
+                    "signal":  "BUY",
+                    "signal_price":  1.8,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DRO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DSK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DTL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DTR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DTZ":  {
+                    "bars_ago":  16,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DUN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DUR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DWG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DXB":  {
+                    "bars_ago":  2,
+                    "price":  0.41,
+                    "signal":  "SELL",
+                    "signal_price":  0.45,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DXI":  {
+                    "bars_ago":  14,
+                    "price":  2.51,
+                    "signal":  "SELL",
+                    "signal_price":  2.75,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DXN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DYL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:DYM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:E25":  {
+                    "bars_ago":  32,
+                    "price":  0.37,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.28,
+                    "timeframe":  "weekly"
+                },
+    "ASX:E79":  {
+                    "bars_ago":  22,
+                    "price":  0.04,
+                    "signal":  "BUY",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EAX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EBR":  {
+                    "bars_ago":  46,
+                    "price":  0.69,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1.37,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ECS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ECT":  {
+                    "bars_ago":  10,
+                    "price":  0.11,
+                    "signal":  "BUY",
+                    "signal_price":  0.16,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EDE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EE1":  {
+                    "bars_ago":  5,
+                    "price":  0.0,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EG1":  {
+                    "bars_ago":  6,
+                    "price":  0.03,
+                    "signal":  "BUY",
+                    "signal_price":  0.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EGA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EGH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EGR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EHL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EIQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EL8":  {
+                    "bars_ago":  7,
+                    "price":  0.33,
+                    "signal":  "BUY",
+                    "signal_price":  0.38,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EM2":  {
+                    "bars_ago":  1,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EM3":  {
+                    "bars_ago":  14,
+                    "price":  0.02,
+                    "signal":  "BUY",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EMI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EMU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EMV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENT":  {
+                    "bars_ago":  19,
+                    "price":  1.17,
+                    "signal":  "SELL",
+                    "signal_price":  2.69,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENV":  {
+                    "bars_ago":  16,
+                    "price":  4.85,
+                    "signal":  "SELL",
+                    "signal_price":  8.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ENX":  {
+                    "bars_ago":  3,
+                    "price":  0.29,
+                    "signal":  "SELL",
+                    "signal_price":  0.25,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EOL":  {
+                    "bars_ago":  15,
+                    "price":  14.49,
+                    "signal":  "SELL",
+                    "signal_price":  16.41,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EPN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EPX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EPY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EQU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ERA":  {
+                    "bars_ago":  32,
+                    "price":  15.47,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1.74,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ERL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ESR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ETM":  {
+                    "bars_ago":  4,
+                    "price":  0.09,
+                    "signal":  "SELL",
+                    "signal_price":  0.11,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EUR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EV1":  {
+                    "bars_ago":  23,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EV8":  {
+                    "bars_ago":  17,
+                    "price":  0.45,
+                    "signal":  "BUY",
+                    "signal_price":  0.37,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EVE":  {
+                    "bars_ago":  15,
+                    "price":  60.9,
+                    "signal":  "SELL",
+                    "signal_price":  78.38,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EXL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:EZZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FAR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FBU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FEG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FFG":  {
+                    "bars_ago":  0,
+                    "price":  12.43,
+                    "signal":  "SELL",
+                    "signal_price":  12.43,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FFI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FG1":  {
+                    "bars_ago":  42,
+                    "price":  44.4,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  22.21,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FGH":  {
+                    "bars_ago":  3,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FGR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FGX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FHE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FHS":  {
+                    "bars_ago":  3,
+                    "price":  0.0,
+                    "signal":  "SELL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FIN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FL1":  {
+                    "bars_ago":  36,
+                    "price":  0.16,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.09,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FLT":  {
+                    "bars_ago":  2,
+                    "price":  10.2,
+                    "signal":  "SELL",
+                    "signal_price":  10.24,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FM1":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FM2":  {
+                    "bars_ago":  5,
+                    "price":  3.24,
+                    "signal":  "SELL",
+                    "signal_price":  3.4,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FM3":  {
+                    "bars_ago":  2,
+                    "price":  7.91,
+                    "signal":  "BUY",
+                    "signal_price":  7.73,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FM5":  {
+                    "bars_ago":  0,
+                    "price":  32.8,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  32.8,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FME":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FML":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FMR":  {
+                    "bars_ago":  15,
+                    "price":  964.95,
+                    "signal":  "BUY",
+                    "signal_price":  987.6,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FOS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FPR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FRB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FRE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FRS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FRW":  {
+                    "bars_ago":  0,
+                    "price":  23.42,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  23.42,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FRX":  {
+                    "bars_ago":  17,
+                    "price":  1961.31,
+                    "signal":  "SELL",
+                    "signal_price":  3531.9,
+                    "timeframe":  "weekly"
+                },
+    "ASX:FZR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:G11":  {
+                    "bars_ago":  36,
+                    "price":  0.31,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.02,
+                    "timeframe":  "weekly"
+                },
+    "ASX:G1C":  {
+                    "bars_ago":  8,
+                    "price":  0.09,
+                    "signal":  "BUY",
+                    "signal_price":  0.09,
+                    "timeframe":  "weekly"
+                },
+    "ASX:G50":  {
+                    "bars_ago":  9,
+                    "price":  0.52,
+                    "signal":  "BUY",
+                    "signal_price":  0.39,
+                    "timeframe":  "weekly"
+                },
+    "ASX:G6M":  {
+                    "bars_ago":  3,
+                    "price":  0.0,
+                    "signal":  "SELL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:G88":  {
+                    "bars_ago":  35,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GA8":  {
+                    "bars_ago":  19,
+                    "price":  0.06,
+                    "signal":  "BUY",
+                    "signal_price":  0.05,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GAS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GC1":  {
+                    "bars_ago":  4,
+                    "price":  10.3,
+                    "signal":  "SELL",
+                    "signal_price":  10.3,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GCI":  {
+                    "bars_ago":  8,
+                    "price":  37.65,
+                    "signal":  "BUY",
+                    "signal_price":  38.2,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GCM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GCR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GDF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GDI":  {
+                    "bars_ago":  1,
+                    "price":  0.62,
+                    "signal":  "BUY",
+                    "signal_price":  0.63,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GDM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GED":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GG1":  {
+                    "bars_ago":  15,
+                    "price":  0.19,
+                    "signal":  "SELL",
+                    "signal_price":  0.22,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GG8":  {
+                    "bars_ago":  3,
+                    "price":  0.42,
+                    "signal":  "SELL",
+                    "signal_price":  0.4,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GGE":  {
+                    "bars_ago":  4,
+                    "price":  0.0,
+                    "signal":  "BUY",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GGP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GL1":  {
+                    "bars_ago":  34,
+                    "price":  0.47,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.18,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GLS":  {
+                    "bars_ago":  4,
+                    "price":  2.02,
+                    "signal":  "BUY",
+                    "signal_price":  1.99,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GNC":  {
+                    "bars_ago":  16,
+                    "price":  6.2,
+                    "signal":  "SELL",
+                    "signal_price":  8.1,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GNP":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GOZ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GPR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GQG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GR8":  {
+                    "bars_ago":  13,
+                    "price":  6.55,
+                    "signal":  "BUY",
+                    "signal_price":  6.15,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GRL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GSN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GSS":  {
+                    "bars_ago":  15,
+                    "price":  63.13,
+                    "signal":  "SELL",
+                    "signal_price":  69.23,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GT1":  {
+                    "bars_ago":  5,
+                    "price":  0.03,
+                    "signal":  "SELL",
+                    "signal_price":  0.03,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GT3":  {
+                    "bars_ago":  24,
+                    "price":  0.05,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GTG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GTK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GVF":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GW1":  {
+                    "bars_ago":  14,
+                    "price":  0.05,
+                    "signal":  "BUY",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:GWR":  {
+                    "bars_ago":  33,
+                    "price":  0.16,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.12,
+                    "timeframe":  "weekly"
+                },
+    "ASX:H2G":  {
+                    "bars_ago":  27,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:H3E":  {
+                    "bars_ago":  19,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HAV":  {
+                    "bars_ago":  1,
+                    "price":  22.9,
+                    "signal":  "SELL",
+                    "signal_price":  23.81,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HAW":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HC1":  {
+                    "bars_ago":  5,
+                    "price":  267.0,
+                    "signal":  "SELL",
+                    "signal_price":  275.9,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HCH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HCL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HCT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HDN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HE8":  {
+                    "bars_ago":  24,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HFY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HGH":  {
+                    "bars_ago":  168,
+                    "price":  0.03,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.95,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HHR":  {
+                    "bars_ago":  32,
+                    "price":  0.01,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HLO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HLS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HM1":  {
+                    "bars_ago":  17,
+                    "price":  2.75,
+                    "signal":  "SELL",
+                    "signal_price":  3.15,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HMD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HMG":  {
+                    "bars_ago":  6,
+                    "price":  0.17,
+                    "signal":  "BUY",
+                    "signal_price":  0.08,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HMI":  {
+                    "bars_ago":  38,
+                    "price":  189.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  224.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HMX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HPG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HPR":  {
+                    "bars_ago":  1,
+                    "price":  6.18,
+                    "signal":  "SELL",
+                    "signal_price":  6.21,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HRE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HRN":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HT8":  {
+                    "bars_ago":  5,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HUB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HVY":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HWK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:HZN":  {
+                    "bars_ago":  4,
+                    "price":  0.25,
+                    "signal":  "BUY",
+                    "signal_price":  0.22,
+                    "timeframe":  "weekly"
+                },
+    "ASX:I88":  {
+                    "bars_ago":  16,
+                    "price":  0.15,
+                    "signal":  "SELL",
+                    "signal_price":  0.26,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IBC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IBK":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IBX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ICR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ID8":  {
+                    "bars_ago":  6,
+                    "price":  0.01,
+                    "signal":  "BUY",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IEL":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IF1":  {
+                    "bars_ago":  0,
+                    "price":  16.35,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  16.35,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IFG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IFT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IG6":  {
+                    "bars_ago":  17,
+                    "price":  0.06,
+                    "signal":  "SELL",
+                    "signal_price":  0.06,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IGO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IIQ":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IKE":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ILA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ILU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IMB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IMC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IME":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IMI":  {
+                    "bars_ago":  0,
+                    "price":  1538.77,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  1538.77,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IMU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:INA":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:INF":  {
+                    "bars_ago":  15,
+                    "price":  719.03,
+                    "signal":  "SELL",
+                    "signal_price":  718.89,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IOD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IPC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IPG":  {
+                    "bars_ago":  0,
+                    "price":  120.7,
+                    "signal":  "SELL",
+                    "signal_price":  120.7,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IPH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IPT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IR1":  {
+                    "bars_ago":  11,
+                    "price":  0.13,
+                    "signal":  "SELL",
+                    "signal_price":  0.19,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IS3":  {
+                    "bars_ago":  6,
+                    "price":  0.01,
+                    "signal":  "SELL",
+                    "signal_price":  0.01,
+                    "timeframe":  "weekly"
+                },
+    "ASX:ITS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IVG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:IVX":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JAN":  {
+                    "bars_ago":  4,
+                    "price":  174.05,
+                    "signal":  "SELL",
+                    "signal_price":  158.85,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JAT":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JBH":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JCS":  {
+                    "bars_ago":  2,
+                    "price":  0.04,
+                    "signal":  "SELL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JDO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JMS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JNO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JNS":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JPR":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:JYC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KAL":  {
+                    "bars_ago":  3,
+                    "price":  0.17,
+                    "signal":  "SELL",
+                    "signal_price":  0.17,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KAO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KAR":  {
+                    "bars_ago":  3,
+                    "price":  100.54,
+                    "signal":  "SELL",
+                    "signal_price":  75.79,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KAU":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KBC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KCC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KFM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KGN":  {
+                    "bars_ago":  1,
+                    "price":  4.09,
+                    "signal":  "BUY",
+                    "signal_price":  4.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KIG":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KKC":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KKO":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KLI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KLR":  {
+                    "bars_ago":  29,
+                    "price":  0.14,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.04,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KLV":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KM1":  {
+                    "bars_ago":  3,
+                    "price":  0.17,
+                    "signal":  "SELL",
+                    "signal_price":  0.17,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KMD":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KNB":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KNI":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "ASX:KNM":  {
+                    "bars_ago":  0,
+                    "price":  0.0,
+                    "signal":  "NEUTRAL",
+                    "signal_price":  0.0,
+                    "timeframe":  "weekly"
+                },
+    "BINANCE:BCHABCUSDT":  {
+                               "bars_ago":  1,
+                               "price":  450.06,
+                               "signal":  "SELL",
+                               "signal_price":  441.92,
+                               "timeframe":  "weekly"
+                           },
+    "BINANCE:BCHSVUSDT":  {
+                              "bars_ago":  35,
+                              "price":  13.89,
+                              "signal":  "NEUTRAL",
+                              "signal_price":  24.29,
+                              "timeframe":  "weekly"
+                          },
+    "BINANCE:ERDUSDT":  {
+                            "bars_ago":  63,
+                            "price":  4.09,
+                            "signal":  "NEUTRAL",
+                            "signal_price":  33.53,
+                            "timeframe":  "weekly"
+                        },
+    "CAPITALCOM:US100":  {
+                             "bars_ago":  0,
+                             "price":  34.44,
+                             "signal":  "NEUTRAL",
+                             "signal_price":  34.44,
+                             "timeframe":  "weekly"
+                         },
+    "CAPITALCOM:US500":  {
+                             "bars_ago":  36,
+                             "price":  19135.0,
+                             "signal":  "NEUTRAL",
+                             "signal_price":  15730.0,
+                             "timeframe":  "weekly"
+                         },
+    "CITYINDEX:GERMANY40CFD":  {
+                                   "bars_ago":  0,
+                                   "price":  23591.03,
+                                   "signal":  "SELL",
+                                   "signal_price":  23591.03,
+                                   "timeframe":  "weekly"
+                               },
+    "CITYINDEX:UK100CFD":  {
+                               "bars_ago":  0,
+                               "price":  10284.8,
+                               "signal":  "SELL",
+                               "signal_price":  10284.8,
+                               "timeframe":  "weekly"
+                           },
+    "CITYINDEX:USNDAQ100CFD":  {
+                                   "bars_ago":  15,
+                                   "price":  24643.02,
+                                   "signal":  "SELL",
+                                   "signal_price":  24239.57,
+                                   "timeframe":  "weekly"
+                               },
+    "CITYINDEX:USSPX500CFD":  {
+                                  "bars_ago":  44,
+                                  "price":  6740.02,
+                                  "signal":  "NEUTRAL",
+                                  "signal_price":  5686.67,
+                                  "timeframe":  "weekly"
+                              },
+    "CITYINDEX:WALLSTREET30CFD":  {
+                                      "bars_ago":  0,
+                                      "price":  47501.55,
+                                      "signal":  "SELL",
+                                      "signal_price":  47501.55,
+                                      "timeframe":  "weekly"
+                                  },
+    "FOREXCOM:GOLDMINICFD":  {
+                                 "bars_ago":  59,
+                                 "price":  5146.1,
+                                 "signal":  "NEUTRAL",
+                                 "signal_price":  2744.3,
+                                 "timeframe":  "weekly"
+                             },
+    "FOREXCOM:NAS100":  {
+                            "bars_ago":  15,
+                            "price":  24643.02,
+                            "signal":  "SELL",
+                            "signal_price":  24239.57,
+                            "timeframe":  "weekly"
+                        },
+    "FOREXCOM:SPX500":  {
+                            "bars_ago":  44,
+                            "price":  6740.02,
+                            "signal":  "NEUTRAL",
+                            "signal_price":  5686.67,
+                            "timeframe":  "weekly"
+                        },
+    "NYSE:ACR$C":  {
+                       "bars_ago":  9,
+                       "price":  25.05,
+                       "signal":  "SELL",
+                       "signal_price":  24.78,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM$D":  {
+                       "bars_ago":  2,
+                       "price":  21.63,
+                       "signal":  "BUY",
+                       "signal_price":  21.77,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM$E":  {
+                       "bars_ago":  2,
+                       "price":  22.22,
+                       "signal":  "BUY",
+                       "signal_price":  22.1,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM$F":  {
+                       "bars_ago":  1,
+                       "price":  19.76,
+                       "signal":  "BUY",
+                       "signal_price":  19.98,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM$G":  {
+                       "bars_ago":  18,
+                       "price":  18.36,
+                       "signal":  "SELL",
+                       "signal_price":  18.75,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM$H":  {
+                       "bars_ago":  3,
+                       "price":  24.83,
+                       "signal":  "BUY",
+                       "signal_price":  25.11,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AGM.A":  {
+                       "bars_ago":  0,
+                       "price":  133.01,
+                       "signal":  "BUY",
+                       "signal_price":  133.01,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AHL$D":  {
+                       "bars_ago":  0,
+                       "price":  20.79,
+                       "signal":  "BUY",
+                       "signal_price":  20.79,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AKO.A":  {
+                       "bars_ago":  62,
+                       "price":  23.16,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  14.78,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:AKO.B":  {
+                       "bars_ago":  0,
+                       "price":  26.0,
+                       "signal":  "SELL",
+                       "signal_price":  26.0,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:ALL$B":  {
+                       "bars_ago":  28,
+                       "price":  26.15,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  26.24,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:ASB$E":  {
+                       "bars_ago":  20,
+                       "price":  20.98,
+                       "signal":  "SELL",
+                       "signal_price":  21.51,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:ASB$F":  {
+                       "bars_ago":  17,
+                       "price":  20.29,
+                       "signal":  "SELL",
+                       "signal_price":  20.95,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:BF.A":  {
+                      "bars_ago":  0,
+                      "price":  25.74,
+                      "signal":  "SELL",
+                      "signal_price":  25.74,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:BF.B":  {
+                      "bars_ago":  0,
+                      "price":  25.26,
+                      "signal":  "SELL",
+                      "signal_price":  25.26,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:BH.A":  {
+                      "bars_ago":  5,
+                      "price":  1678.97,
+                      "signal":  "SELL",
+                      "signal_price":  1968.82,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:BIO.B":  {
+                       "bars_ago":  0,
+                       "price":  281.95,
+                       "signal":  "BUY",
+                       "signal_price":  281.95,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:BRK.A":  {
+                       "bars_ago":  27,
+                       "price":  747800.0,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  755280.0,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:BRK.B":  {
+                       "bars_ago":  4,
+                       "price":  498.98,
+                       "signal":  "BUY",
+                       "signal_price":  508.09,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CELG.R":  {
+                        "bars_ago":  14,
+                        "price":  60.29,
+                        "signal":  "BUY",
+                        "signal_price":  49.2,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:CHMI$B":  {
+                        "bars_ago":  21,
+                        "price":  23.68,
+                        "signal":  "SELL",
+                        "signal_price":  23.47,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:CIG.C":  {
+                       "bars_ago":  57,
+                       "price":  2.87,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  2.63,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CIM$B":  {
+                       "bars_ago":  21,
+                       "price":  23.24,
+                       "signal":  "SELL",
+                       "signal_price":  24.1,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CIM$C":  {
+                       "bars_ago":  0,
+                       "price":  21.74,
+                       "signal":  "SELL",
+                       "signal_price":  21.74,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CIM$D":  {
+                       "bars_ago":  2,
+                       "price":  23.06,
+                       "signal":  "BUY",
+                       "signal_price":  24.0,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CNO$A":  {
+                       "bars_ago":  0,
+                       "price":  19.83,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  19.83,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CODI$B":  {
+                        "bars_ago":  5,
+                        "price":  20.36,
+                        "signal":  "BUY",
+                        "signal_price":  19.82,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:CRD.A":  {
+                       "bars_ago":  28,
+                       "price":  10.53,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  11.65,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CRD.B":  {
+                       "bars_ago":  28,
+                       "price":  10.53,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  11.46,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:CWEN.A":  {
+                        "bars_ago":  7,
+                        "price":  35.17,
+                        "signal":  "BUY",
+                        "signal_price":  33.9,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:DBRG$H":  {
+                        "bars_ago":  8,
+                        "price":  17.15,
+                        "signal":  "SELL",
+                        "signal_price":  20.59,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:DBRG$I":  {
+                        "bars_ago":  8,
+                        "price":  17.14,
+                        "signal":  "SELL",
+                        "signal_price":  20.4,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:DBRG$J":  {
+                        "bars_ago":  8,
+                        "price":  17.16,
+                        "signal":  "SELL",
+                        "signal_price":  20.41,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:DX$C":  {
+                      "bars_ago":  28,
+                      "price":  25.94,
+                      "signal":  "NEUTRAL",
+                      "signal_price":  25.94,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:EFC$B":  {
+                       "bars_ago":  28,
+                       "price":  24.47,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  23.68,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:EFC$C":  {
+                       "bars_ago":  23,
+                       "price":  26.01,
+                       "signal":  "BUY",
+                       "signal_price":  25.3,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:GEF.B":  {
+                       "bars_ago":  16,
+                       "price":  84.1,
+                       "signal":  "BUY",
+                       "signal_price":  66.22,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:GGT$E":  {
+                       "bars_ago":  36,
+                       "price":  21.33,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  22.54,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:GGT$G":  {
+                       "bars_ago":  37,
+                       "price":  21.57,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  22.47,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:GL$D":  {
+                      "bars_ago":  0,
+                      "price":  16.4,
+                      "signal":  "NEUTRAL",
+                      "signal_price":  16.4,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:GTN.A":  {
+                       "bars_ago":  50,
+                       "price":  10.75,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  8.55,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:HEI.A":  {
+                       "bars_ago":  1,
+                       "price":  232.86,
+                       "signal":  "SELL",
+                       "signal_price":  240.11,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:HVT.A":  {
+                       "bars_ago":  8,
+                       "price":  24.59,
+                       "signal":  "BUY",
+                       "signal_price":  25.6,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:IVR$C":  {
+                       "bars_ago":  44,
+                       "price":  24.4,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  24.59,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:LEN.B":  {
+                       "bars_ago":  0,
+                       "price":  95.09,
+                       "signal":  "SELL",
+                       "signal_price":  95.09,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MAA$I":  {
+                       "bars_ago":  17,
+                       "price":  54.55,
+                       "signal":  "SELL",
+                       "signal_price":  53.24,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MFA$C":  {
+                       "bars_ago":  1,
+                       "price":  23.06,
+                       "signal":  "SELL",
+                       "signal_price":  22.86,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MKC.V":  {
+                       "bars_ago":  3,
+                       "price":  64.61,
+                       "signal":  "BUY",
+                       "signal_price":  71.9,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MOG.A":  {
+                       "bars_ago":  42,
+                       "price":  316.8,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  184.14,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MOG.B":  {
+                       "bars_ago":  40,
+                       "price":  343.39,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  183.96,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:MS$F":  {
+                      "bars_ago":  22,
+                      "price":  25.33,
+                      "signal":  "SELL",
+                      "signal_price":  25.25,
+                      "timeframe":  "weekly"
+                  },
+    "NYSE:MTB$H":  {
+                       "bars_ago":  36,
+                       "price":  24.99,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  25.55,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NEE$N":  {
+                       "bars_ago":  0,
+                       "price":  23.77,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  23.77,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NEE$U":  {
+                       "bars_ago":  0,
+                       "price":  25.36,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  25.36,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NGL$B":  {
+                       "bars_ago":  12,
+                       "price":  24.55,
+                       "signal":  "BUY",
+                       "signal_price":  24.07,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NGL$C":  {
+                       "bars_ago":  27,
+                       "price":  25.1,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  23.35,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NLY$F":  {
+                       "bars_ago":  0,
+                       "price":  25.36,
+                       "signal":  "SELL",
+                       "signal_price":  25.36,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NLY$G":  {
+                       "bars_ago":  8,
+                       "price":  24.87,
+                       "signal":  "BUY",
+                       "signal_price":  25.15,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NLY$I":  {
+                       "bars_ago":  0,
+                       "price":  25.02,
+                       "signal":  "SELL",
+                       "signal_price":  25.02,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:NLY$J":  {
+                       "bars_ago":  8,
+                       "price":  25.83,
+                       "signal":  "BUY",
+                       "signal_price":  26.2,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:PNFP$A":  {
+                        "bars_ago":  3,
+                        "price":  25.3,
+                        "signal":  "BUY",
+                        "signal_price":  25.21,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:PNFP$B":  {
+                        "bars_ago":  3,
+                        "price":  26.17,
+                        "signal":  "BUY",
+                        "signal_price":  26.2,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:PNFP$C":  {
+                        "bars_ago":  2,
+                        "price":  24.9,
+                        "signal":  "BUY",
+                        "signal_price":  25.03,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$A":  {
+                        "bars_ago":  5,
+                        "price":  25.38,
+                        "signal":  "SELL",
+                        "signal_price":  25.2,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$B":  {
+                        "bars_ago":  5,
+                        "price":  25.21,
+                        "signal":  "SELL",
+                        "signal_price":  25.14,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$C":  {
+                        "bars_ago":  10,
+                        "price":  24.51,
+                        "signal":  "SELL",
+                        "signal_price":  24.46,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$D":  {
+                        "bars_ago":  35,
+                        "price":  24.74,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  24.27,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$E":  {
+                        "bars_ago":  5,
+                        "price":  24.78,
+                        "signal":  "SELL",
+                        "signal_price":  24.54,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:RITM$F":  {
+                        "bars_ago":  0,
+                        "price":  24.83,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  24.83,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:SCE$K":  {
+                       "bars_ago":  31,
+                       "price":  25.34,
+                       "signal":  "NEUTRAL",
+                       "signal_price":  23.65,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:SEAL$B":  {
+                        "bars_ago":  4,
+                        "price":  25.86,
+                        "signal":  "BUY",
+                        "signal_price":  25.96,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TAP.A":  {
+                       "bars_ago":  7,
+                       "price":  52.89,
+                       "signal":  "BUY",
+                       "signal_price":  50.95,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:TEN$E":  {
+                       "bars_ago":  3,
+                       "price":  26.8,
+                       "signal":  "BUY",
+                       "signal_price":  27.14,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:TEN$F":  {
+                       "bars_ago":  4,
+                       "price":  27.52,
+                       "signal":  "SELL",
+                       "signal_price":  26.85,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:TRTN$A":  {
+                        "bars_ago":  34,
+                        "price":  25.93,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  25.78,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$B":  {
+                        "bars_ago":  34,
+                        "price":  25.53,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  25.24,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$C":  {
+                        "bars_ago":  37,
+                        "price":  24.97,
+                        "signal":  "NEUTRAL",
+                        "signal_price":  23.85,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$D":  {
+                        "bars_ago":  13,
+                        "price":  23.89,
+                        "signal":  "BUY",
+                        "signal_price":  23.61,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$E":  {
+                        "bars_ago":  2,
+                        "price":  20.48,
+                        "signal":  "BUY",
+                        "signal_price":  20.62,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$F":  {
+                        "bars_ago":  0,
+                        "price":  24.7,
+                        "signal":  "SELL",
+                        "signal_price":  24.7,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TRTN$G":  {
+                        "bars_ago":  2,
+                        "price":  24.51,
+                        "signal":  "SELL",
+                        "signal_price":  25.29,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:TWO$A":  {
+                       "bars_ago":  11,
+                       "price":  24.62,
+                       "signal":  "BUY",
+                       "signal_price":  24.34,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:TWO$B":  {
+                       "bars_ago":  11,
+                       "price":  24.56,
+                       "signal":  "BUY",
+                       "signal_price":  23.88,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:TWO$C":  {
+                       "bars_ago":  11,
+                       "price":  24.94,
+                       "signal":  "BUY",
+                       "signal_price":  24.66,
+                       "timeframe":  "weekly"
+                   },
+    "NYSE:UHAL.B":  {
+                        "bars_ago":  4,
+                        "price":  46.09,
+                        "signal":  "SELL",
+                        "signal_price":  45.67,
+                        "timeframe":  "weekly"
+                    },
+    "NYSE:WFC$L":  {
+                       "bars_ago":  0,
+                       "price":  1199.25,
+                       "signal":  "SELL",
+                       "signal_price":  1199.25,
+                       "timeframe":  "weekly"
+                   },
+    "OANDA:AU200AUD":  {
+                           "bars_ago":  3,
+                           "price":  8851.0,
+                           "signal":  "BUY",
+                           "signal_price":  8966.8,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:BCOUSD":  {
+                         "bars_ago":  5,
+                         "price":  92.69,
+                         "signal":  "BUY",
+                         "signal_price":  70.69,
+                         "timeframe":  "weekly"
+                     },
+    "OANDA:CH20CHF":  {
+                          "bars_ago":  0,
+                          "price":  13095.55,
+                          "signal":  "SELL",
+                          "signal_price":  13095.55,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:CN50USD":  {
+                          "bars_ago":  0,
+                          "price":  2992.7,
+                          "signal":  "NEUTRAL",
+                          "signal_price":  2992.7,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:COCOAUSD":  {
+                           "bars_ago":  37,
+                           "price":  3138.0,
+                           "signal":  "NEUTRAL",
+                           "signal_price":  8459.0,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:COFFEEUSD":  {
+                            "bars_ago":  11,
+                            "price":  297.6,
+                            "signal":  "SELL",
+                            "signal_price":  340.65,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:CORNUSD":  {
+                          "bars_ago":  24,
+                          "price":  447.0,
+                          "signal":  "NEUTRAL",
+                          "signal_price":  424.0,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:COTTONUSD":  {
+                            "bars_ago":  15,
+                            "price":  63.19,
+                            "signal":  "SELL",
+                            "signal_price":  61.35,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:DE40EUR":  {
+                          "bars_ago":  0,
+                          "price":  23591.03,
+                          "signal":  "SELL",
+                          "signal_price":  23591.03,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:ES35EUR":  {
+                          "bars_ago":  0,
+                          "price":  17074.4,
+                          "signal":  "SELL",
+                          "signal_price":  17074.4,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:EU50EUR":  {
+                          "bars_ago":  0,
+                          "price":  5719.9,
+                          "signal":  "SELL",
+                          "signal_price":  5719.9,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:FRA40EUR":  {
+                           "bars_ago":  0,
+                           "price":  7993.49,
+                           "signal":  "SELL",
+                           "signal_price":  7993.49,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:HK33HKD":  {
+                          "bars_ago":  5,
+                          "price":  25757.29,
+                          "signal":  "BUY",
+                          "signal_price":  27387.11,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:IN50USD":  {
+                          "bars_ago":  6,
+                          "price":  24450.45,
+                          "signal":  "SELL",
+                          "signal_price":  25048.65,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:JP225USD":  {
+                           "bars_ago":  43,
+                           "price":  55620.84,
+                           "signal":  "NEUTRAL",
+                           "signal_price":  37503.33,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:NAS100USD":  {
+                            "bars_ago":  15,
+                            "price":  24643.02,
+                            "signal":  "SELL",
+                            "signal_price":  24239.57,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:NATGASUSD":  {
+                            "bars_ago":  3,
+                            "price":  3.19,
+                            "signal":  "SELL",
+                            "signal_price":  3.24,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:NL25EUR":  {
+                          "bars_ago":  8,
+                          "price":  980.34,
+                          "signal":  "BUY",
+                          "signal_price":  988.17,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:SG30SGD":  {
+                          "bars_ago":  45,
+                          "price":  4848.25,
+                          "signal":  "NEUTRAL",
+                          "signal_price":  3823.78,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:SOYBEANUSD":  {
+                             "bars_ago":  4,
+                             "price":  1185.0,
+                             "signal":  "BUY",
+                             "signal_price":  1115.25,
+                             "timeframe":  "weekly"
+                         },
+    "OANDA:SPX500USD":  {
+                            "bars_ago":  44,
+                            "price":  6740.02,
+                            "signal":  "NEUTRAL",
+                            "signal_price":  5686.67,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:SUGARUSD":  {
+                           "bars_ago":  52,
+                           "price":  14.1,
+                           "signal":  "NEUTRAL",
+                           "signal_price":  18.31,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:UK100GBP":  {
+                           "bars_ago":  0,
+                           "price":  10284.8,
+                           "signal":  "SELL",
+                           "signal_price":  10284.8,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:US2000USD":  {
+                            "bars_ago":  42,
+                            "price":  2525.3,
+                            "signal":  "NEUTRAL",
+                            "signal_price":  2113.25,
+                            "timeframe":  "weekly"
+                        },
+    "OANDA:US30USD":  {
+                          "bars_ago":  0,
+                          "price":  47501.55,
+                          "signal":  "SELL",
+                          "signal_price":  47501.55,
+                          "timeframe":  "weekly"
+                      },
+    "OANDA:VIX":  {
+                      "bars_ago":  0,
+                      "price":  0.0,
+                      "signal":  "NEUTRAL",
+                      "signal_price":  0.0,
+                      "timeframe":  "weekly"
+                  },
+    "OANDA:WHEATUSD":  {
+                           "bars_ago":  3,
+                           "price":  611.25,
+                           "signal":  "BUY",
+                           "signal_price":  548.75,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:WTICOUSD":  {
+                           "bars_ago":  5,
+                           "price":  90.9,
+                           "signal":  "BUY",
+                           "signal_price":  65.21,
+                           "timeframe":  "weekly"
+                       },
+    "OANDA:XCUUSD":  {
+                         "bars_ago":  0,
+                         "price":  1.34,
+                         "signal":  "NEUTRAL",
+                         "signal_price":  1.34,
+                         "timeframe":  "weekly"
+                     },
+    "NASDAQ:ANTX":  {
+                        "bars_ago":  1,
+                        "price":  5.88,
+                        "signal":  "BUY",
+                        "signal_price":  2.97,
+                        "timeframe":  "weekly"
+                    }
+}

@@ -1,5 +1,6 @@
 import { Pool } from "pg";
 import { getUniverseSymbols, marketFromSymbol, nameFromSymbol } from "./universe";
+import manualBackfill from "../data/manual_backfill.json";
 
 export type SignalRow = {
   symbol: string;
@@ -15,10 +16,18 @@ export type SignalRow = {
 };
 
 type BaseSignalRow = Omit<SignalRow, "symbol_name" | "market" | "data_quality">;
+type BackfillEntry = {
+  timeframe?: string;
+  signal?: string;
+  price?: string | number | null;
+  signal_price?: string | number | null;
+  bars_ago?: number | null;
+};
 
 const rawDatabaseUrl = (process.env.DATABASE_URL || "").trim();
 const useNoDbMode = !rawDatabaseUrl;
 const pool = useNoDbMode ? null : new Pool({ connectionString: rawDatabaseUrl });
+const backfill = manualBackfill as Record<string, BackfillEntry>;
 
 function toFiniteNumber(v: string | number | null): number | null {
   if (v == null || v === "") return null;
@@ -82,6 +91,40 @@ function baseForSymbol(symbol: string, timeframe: string): BaseSignalRow {
     price: null,
     signal_price: null,
     bars_ago: null,
+    ts: new Date(0).toISOString(),
+  };
+}
+
+function applyBackfill(symbol: string, timeframe: string, row: BaseSignalRow): BaseSignalRow {
+  const b = backfill[symbol];
+  if (!b) return row;
+  if ((b.timeframe || timeframe).toLowerCase() !== row.timeframe.toLowerCase()) return row;
+
+  const needsBackfill = row.price == null || row.signal_price == null || row.bars_ago == null || row.bars_ago <= 0;
+  if (!needsBackfill) return row;
+
+  return {
+    ...row,
+    signal: row.signal || b.signal || "NEUTRAL",
+    price: row.price ?? b.price ?? null,
+    signal_price: row.signal_price ?? b.signal_price ?? null,
+    bars_ago: row.bars_ago ?? b.bars_ago ?? null,
+  };
+}
+
+function backfillOnly(symbol: string, timeframe: string): BaseSignalRow {
+  const b = backfill[symbol];
+  if (!b || (b.timeframe || timeframe).toLowerCase() !== timeframe.toLowerCase()) {
+    return baseForSymbol(symbol, timeframe);
+  }
+
+  return {
+    symbol,
+    timeframe,
+    signal: b.signal || "NEUTRAL",
+    price: b.price ?? null,
+    signal_price: b.signal_price ?? null,
+    bars_ago: b.bars_ago ?? null,
     ts: new Date(0).toISOString(),
   };
 }
@@ -176,7 +219,7 @@ export async function getLatestSignals(limit = 10000, timeframe = "weekly"): Pro
   if (!pool) {
     return universeSymbols.slice(0, cap).map((symbol) => {
       const m = metaFor(symbol);
-      const raw = baseForSymbol(symbol, timeframe);
+      const raw = backfillOnly(symbol, timeframe);
       const inferred = inferMissingFields(raw, false);
       return {
         ...inferred,
@@ -202,7 +245,8 @@ export async function getLatestSignals(limit = 10000, timeframe = "weekly"): Pro
 
   return universeSymbols.slice(0, cap).map((symbol) => {
     const m = metaFor(symbol);
-    const raw = latest.get(symbol) || baseForSymbol(symbol, timeframe);
+    const row = latest.get(symbol);
+    const raw = row ? applyBackfill(symbol, timeframe, row) : backfillOnly(symbol, timeframe);
     const inferred = inferMissingFields(raw, Boolean(latest.get(symbol)));
     return {
       ...inferred,
