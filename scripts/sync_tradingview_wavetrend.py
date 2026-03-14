@@ -5,7 +5,7 @@ Sync weekly WaveTrend crossover signals from TradingView into Neon.
 Rules:
 - BUY when green (wt1) crosses above red (wt2)
 - SELL when green crosses below red
-- bars_ago is distance from last crossover bar to latest bar (minimum 1)
+- bars_ago is distance from last crossover bar to latest bar
 """
 
 from __future__ import annotations
@@ -101,7 +101,7 @@ def build_signal(df: pd.DataFrame) -> dict | None:
     else:
         event_ts = events[-1]
         event_pos = clean.index.get_loc(event_ts)
-        bars_ago = max(1, int(len(clean) - 1 - event_pos))
+        bars_ago = max(0, int(len(clean) - 1 - event_pos))
         signal = "BUY" if bool(cross_up.loc[event_ts]) else "SELL"
         signal_price = float(clean["close"].iloc[event_pos])
 

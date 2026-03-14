@@ -59,10 +59,10 @@ function inferMissingFields(row: BaseSignalRow, allowBarsFromTs: boolean): BaseS
     const tsMs = Date.parse(row.ts);
     if (Number.isFinite(tsMs) && tsMs > Date.parse("2000-01-01T00:00:00.000Z")) {
       const ageDays = Math.max(0, (Date.now() - tsMs) / 86400000);
-      barsAgo = Math.max(1, Math.round(ageDays / timeframeDays(row.timeframe)));
+      barsAgo = Math.round(ageDays / timeframeDays(row.timeframe));
     }
   }
-  if (barsAgo == null || barsAgo <= 0) {
+  if (barsAgo == null) {
     // First-run baseline requested by user.
     barsAgo = 1;
   }
@@ -100,7 +100,7 @@ function applyBackfill(symbol: string, timeframe: string, row: BaseSignalRow): B
   if (!b) return row;
   if ((b.timeframe || timeframe).toLowerCase() !== row.timeframe.toLowerCase()) return row;
 
-  const needsBackfill = row.price == null || row.signal_price == null || row.bars_ago == null || row.bars_ago <= 0;
+  const needsBackfill = row.price == null || row.signal_price == null || row.bars_ago == null;
   if (!needsBackfill) return row;
 
   return {
@@ -204,7 +204,7 @@ export async function upsertSignal(input: {
     signal === "BUY" || signal === "SELL" ? signal : "NEUTRAL",
     toFiniteNumber(input.price ?? null),
     toFiniteNumber(input.signal_price ?? null),
-    input.bars_ago == null ? null : Math.max(1, Math.trunc(Number(input.bars_ago))),
+    input.bars_ago == null ? null : Math.max(0, Math.trunc(Number(input.bars_ago))),
     ts,
     input.source || "tradingview",
   ]);
