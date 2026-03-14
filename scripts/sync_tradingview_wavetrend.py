@@ -5,7 +5,8 @@ Sync weekly WaveTrend crossover signals from TradingView into Neon.
 Rules:
 - BUY when green (wt1) crosses above red (wt2)
 - SELL when green crosses below red
-- bars_ago is distance from last crossover bar to latest bar
+- bars_ago counts candles from the latest live weekly bar:
+  current in-progress weekly crossover = 0, prior bar = 1, two bars ago = 2
 """
 
 from __future__ import annotations

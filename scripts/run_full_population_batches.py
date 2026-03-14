@@ -63,9 +63,13 @@ def main() -> int:
 
     total = load_total_symbols()
     checkpoint = load_checkpoint()
+    checkpoint_total = int(checkpoint.get("total_symbols", 0) or 0)
     next_index = int(checkpoint.get("next_index", 0))
     if args.start_index >= 0:
         next_index = args.start_index
+    elif next_index >= total or (checkpoint_total and checkpoint_total != total):
+        # A completed or stale checkpoint should restart from the beginning on the next daily run.
+        next_index = 0
 
     batch_size = max(1, args.batch_size)
     batches_run = 0
