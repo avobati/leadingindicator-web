@@ -12,8 +12,12 @@ Rules:
 from __future__ import annotations
 
 import argparse
+import json
 import os
+import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 import numpy as np
@@ -25,6 +29,7 @@ from tvDatafeed import Interval, TvDatafeed
 ROOT = Path(__file__).resolve().parents[1]
 TICKERS_PATH = ROOT / "data" / "tickers.csv"
 DEFAULT_TIMEFRAME = "weekly"
+DEFAULT_INGEST_URL = "https://leadingindicator-web.vercel.app/api/signals/ingest"
 
 
 def load_env_local() -> None:
@@ -115,6 +120,26 @@ def build_signal(df: pd.DataFrame) -> dict | None:
     }
 
 
+def rows_to_payload(rows: list[tuple]) -> list[dict]:
+    payloads: list[dict] = []
+    for row in rows:
+        payloads.append(
+            {
+                "symbol": row[0],
+                "symbol_name": row[1],
+                "market": row[2],
+                "timeframe": row[3],
+                "signal": row[4],
+                "price": row[5],
+                "signal_price": row[6],
+                "bars_ago": row[7],
+                "ts": row[8],
+                "source": row[9],
+            }
+        )
+    return payloads
+
+
 def upsert_rows(conn: psycopg.Connection, rows: list[tuple]) -> None:
     if not rows:
         return
@@ -136,6 +161,34 @@ def upsert_rows(conn: psycopg.Connection, rows: list[tuple]) -> None:
     conn.commit()
 
 
+def post_rows(ingest_url: str, rows: list[tuple]) -> None:
+    if not rows:
+        return
+
+    payload = json.dumps({"items": rows_to_payload(rows)}).encode("utf-8")
+    request = urllib.request.Request(
+        ingest_url,
+        data=payload,
+        method="POST",
+        headers={"Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(request, timeout=60) as response:
+        raw = response.read().decode("utf-8")
+        body = json.loads(raw or "{}")
+        if response.status >= 400 or not body.get("ok"):
+            raise RuntimeError(f"HTTP ingest failed: status={response.status} body={raw}")
+
+
+def flush_rows(conn: psycopg.Connection | None, ingest_url: str | None, rows: list[tuple]) -> None:
+    if conn is not None:
+        upsert_rows(conn, rows)
+        return
+    if ingest_url:
+        post_rows(ingest_url, rows)
+        return
+    raise RuntimeError("No write target available for signal sync")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync TradingView weekly WaveTrend crossovers into Neon")
     parser.add_argument("--limit", type=int, default=300, help="Max symbols to sync (default: 300)")
@@ -152,8 +205,18 @@ def main() -> int:
 
     load_env_local()
     database_url = (os.environ.get("DATABASE_URL") or "").strip()
-    if not database_url:
-        raise SystemExit("Missing DATABASE_URL (set in .env.local or environment)")
+    ingest_url = (os.environ.get("SIGNALS_INGEST_URL") or DEFAULT_INGEST_URL).strip() or None
+    conn: psycopg.Connection | None = None
+
+    if database_url:
+        try:
+            conn = psycopg.connect(database_url)
+        except psycopg.OperationalError as exc:
+            if not ingest_url:
+                raise
+            print(f"db_connect_failed={exc}; falling back to ingest_url={ingest_url}", file=sys.stderr, flush=True)
+    elif not ingest_url:
+        raise SystemExit("Missing DATABASE_URL or SIGNALS_INGEST_URL")
 
     if args.symbols.strip():
         symbols = [s.strip().upper() for s in args.symbols.split(",") if ":" in s.strip()]
@@ -165,7 +228,7 @@ def main() -> int:
     ok = 0
     rows: list[tuple] = []
 
-    with psycopg.connect(database_url) as conn:
+    try:
         for tv_symbol in symbols:
             done += 1
             exchange, symbol_name = tv_symbol.split(":", 1)
@@ -197,7 +260,7 @@ def main() -> int:
             )
 
             if len(rows) >= args.batch_size:
-                upsert_rows(conn, rows)
+                flush_rows(conn, ingest_url, rows)
                 rows.clear()
 
             if done % 10 == 0:
@@ -206,7 +269,10 @@ def main() -> int:
             time.sleep(max(0, args.pause_ms) / 1000.0)
 
         if rows:
-            upsert_rows(conn, rows)
+            flush_rows(conn, ingest_url, rows)
+    finally:
+        if conn is not None:
+            conn.close()
 
     print(f"done={done} synced={ok}", flush=True)
     return 0
