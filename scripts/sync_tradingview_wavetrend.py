@@ -179,13 +179,24 @@ def post_rows(ingest_url: str, rows: list[tuple]) -> None:
             raise RuntimeError(f"HTTP ingest failed: status={response.status} body={raw}")
 
 
-def flush_rows(conn: psycopg.Connection | None, ingest_url: str | None, rows: list[tuple]) -> None:
+def flush_rows(conn: psycopg.Connection | None, ingest_url: str | None, rows: list[tuple]) -> psycopg.Connection | None:
     if conn is not None:
-        upsert_rows(conn, rows)
-        return
+        try:
+            upsert_rows(conn, rows)
+            return conn
+        except psycopg.OperationalError as exc:
+            if not ingest_url:
+                raise
+            print(f"db_write_failed={exc}; falling back to ingest_url={ingest_url}", file=sys.stderr, flush=True)
+            try:
+                conn.close()
+            except Exception:
+                pass
+            post_rows(ingest_url, rows)
+            return None
     if ingest_url:
         post_rows(ingest_url, rows)
-        return
+        return None
     raise RuntimeError("No write target available for signal sync")
 
 
@@ -260,7 +271,7 @@ def main() -> int:
             )
 
             if len(rows) >= args.batch_size:
-                flush_rows(conn, ingest_url, rows)
+                conn = flush_rows(conn, ingest_url, rows)
                 rows.clear()
 
             if done % 10 == 0:
@@ -269,7 +280,7 @@ def main() -> int:
             time.sleep(max(0, args.pause_ms) / 1000.0)
 
         if rows:
-            flush_rows(conn, ingest_url, rows)
+            conn = flush_rows(conn, ingest_url, rows)
     finally:
         if conn is not None:
             conn.close()

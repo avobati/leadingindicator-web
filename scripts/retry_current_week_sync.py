@@ -10,7 +10,6 @@ This script keeps batching the current stale set until either:
 from __future__ import annotations
 
 import argparse
-import math
 import os
 import subprocess
 import sys
@@ -60,7 +59,7 @@ def monday_utc_now() -> datetime:
     return (now - timedelta(days=now.weekday())).replace(hour=0, minute=0, second=0, microsecond=0)
 
 
-def latest_rows(conn: psycopg.Connection, timeframe: str) -> dict[str, datetime]:
+def latest_rows(database_url: str, timeframe: str) -> dict[str, datetime]:
     sql = """
         select distinct on (symbol) symbol, ts
         from signals
@@ -68,15 +67,16 @@ def latest_rows(conn: psycopg.Connection, timeframe: str) -> dict[str, datetime]
         order by symbol, ts desc
     """
     out: dict[str, datetime] = {}
-    with conn.cursor() as cur:
-        cur.execute(sql, (timeframe,))
-        for symbol, ts in cur.fetchall():
-            out[str(symbol).upper()] = ts
+    with psycopg.connect(database_url) as conn:
+        with conn.cursor() as cur:
+            cur.execute(sql, (timeframe,))
+            for symbol, ts in cur.fetchall():
+                out[str(symbol).upper()] = ts
     return out
 
 
-def stale_symbols(conn: psycopg.Connection, universe: list[str], timeframe: str, fresh_since: datetime) -> list[str]:
-    latest = latest_rows(conn, timeframe)
+def stale_symbols(database_url: str, universe: list[str], timeframe: str, fresh_since: datetime) -> list[str]:
+    latest = latest_rows(database_url, timeframe)
     stale: list[str] = []
     for symbol in universe:
         ts = latest.get(symbol)
@@ -91,6 +91,8 @@ def chunks(values: list[str], size: int) -> list[list[str]]:
 
 def run_batch(symbols: list[str], pause_ms: int) -> int:
     env = os.environ.copy()
+    env["DATABASE_URL"] = ""
+    env["SIGNALS_INGEST_URL"] = env.get("SIGNALS_INGEST_URL") or "https://leadingindicator-web.vercel.app/api/signals/ingest"
     cmd = [
         sys.executable,
         str(SYNC_SCRIPT),
@@ -129,38 +131,37 @@ def main() -> int:
         flush=True,
     )
 
-    with psycopg.connect(database_url) as conn:
-        for pass_no in range(1, max(1, args.max_passes) + 1):
-            stale = stale_symbols(conn, universe, args.timeframe, fresh_since)
-            stale_count = len(stale)
-            fresh_count = len(universe) - stale_count
-            print(f"pass={pass_no} fresh={fresh_count} stale={stale_count}", flush=True)
+    for pass_no in range(1, max(1, args.max_passes) + 1):
+        stale = stale_symbols(database_url, universe, args.timeframe, fresh_since)
+        stale_count = len(stale)
+        fresh_count = len(universe) - stale_count
+        print(f"pass={pass_no} fresh={fresh_count} stale={stale_count}", flush=True)
 
-            if stale_count == 0:
-                print("all symbols are fresh for the current week", flush=True)
-                return 0
+        if stale_count == 0:
+            print("all symbols are fresh for the current week", flush=True)
+            return 0
 
-            if last_stale_count is not None and stale_count >= last_stale_count:
-                print("coverage stopped improving; stopping retries", flush=True)
-                return 2
+        if last_stale_count is not None and stale_count >= last_stale_count:
+            print("coverage stopped improving; stopping retries", flush=True)
+            return 2
 
-            last_stale_count = stale_count
-            groups = chunks(stale, batch_size)
-            total_groups = len(groups)
-            for index, group in enumerate(groups, start=1):
-                print(
-                    f"pass={pass_no} batch={index}/{total_groups} symbols={len(group)} "
-                    f"first={group[0]} last={group[-1]}",
-                    flush=True,
-                )
-                code = run_batch(group, args.pause_ms)
-                print(f"pass={pass_no} batch={index}/{total_groups} exit={code}", flush=True)
+        last_stale_count = stale_count
+        groups = chunks(stale, batch_size)
+        total_groups = len(groups)
+        for index, group in enumerate(groups, start=1):
+            print(
+                f"pass={pass_no} batch={index}/{total_groups} symbols={len(group)} "
+                f"first={group[0]} last={group[-1]}",
+                flush=True,
+            )
+            code = run_batch(group, args.pause_ms)
+            print(f"pass={pass_no} batch={index}/{total_groups} exit={code}", flush=True)
 
-            time.sleep(max(0.0, args.sleep_between_passes))
+        time.sleep(max(0.0, args.sleep_between_passes))
 
-        final_stale = stale_symbols(conn, universe, args.timeframe, fresh_since)
-        print(f"finished max_passes with stale={len(final_stale)}", flush=True)
-        return 0 if not final_stale else 3
+    final_stale = stale_symbols(database_url, universe, args.timeframe, fresh_since)
+    print(f"finished max_passes with stale={len(final_stale)}", flush=True)
+    return 0 if not final_stale else 3
 
 
 if __name__ == "__main__":
